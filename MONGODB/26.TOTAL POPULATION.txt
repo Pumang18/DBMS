@@ -4,8 +4,6 @@ mongoimport --db yourDBname --collection zipcodes --file path/to/zip.json
 
 mongoimport --jsonArray --db DYPIT --collection students --file "C:\Users\Public\Documents\teachers.json"
 
-mongoimport --jsonArray --db FNQ --collection Sample --file "C:\Users\ov018\OneDrive\Desktop\PrathamDBMS\MONGODB\zip.json"
-
 Replace yourDBname with the name of your MongoDB database.
 
 1.Create a MapReduce function to find total population in each state:

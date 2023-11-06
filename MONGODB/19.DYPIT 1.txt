@@ -20,8 +20,8 @@ db.Teachers.insert({
 // Insert data into Students collection
 db.Students.insert({
     Sname: "Alice",
-    roll_no: 2,
-    class: "xyz"
+    roll_no: 1,
+    class: "X"
 })
 
 // ... insert more data as needed

@@ -1,3 +1,12 @@
+// mongosh
+   use databasename
+   db.createCollection.("map");
+// insert value in collection
+  db.map.insert({"id":0,"name":"abc","email":"abc@gmail","work":"student","age":21,"gender":"male","salary":50000,"hoobies":"dance"})
+  db.map.insert({"id":0,"name":"xyz","email":"xyz@gmail","work":"teacher","age":21,"gender":"female","salary":80000,"hoobies":"read books"})
+  db.map.insert({"id":0,"name":"pqr","email":"pqr@gmail","work":"employe","age":21,"gender":"male","salary":120000,"hoobies":"play cricket"})
+  db.map.insert({"id":0,"name":"iop","email":"iop@gmail","work":"professor","age":21,"gender":"female","salary":510000,"hoobies":"painting"})
+
 1. Get the count of Males and Females:
 var mapFunction = function() {
     emit(this.gender, 1);
